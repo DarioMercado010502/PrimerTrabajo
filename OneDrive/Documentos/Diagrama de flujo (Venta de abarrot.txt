@@ -1,0 +1,29 @@
+Diagrama de flujo (Venta de abarrotes)PREEXAMEN.-
+Inicio , 
+   ↓
+[Entrada] Leer Nombre del producto
+   ↓
+[Entrada] Leer Cantidad del producto
+   ↓
+[Entrada] Leer Precio del producto
+   ↓
+[Proceso] Calcular Totalventa = Cantidadproducto * Precioproducto
+   ↓
+[Proceso] Calcular Descuento = Totalventa * Tasadescuento
+   ↓
+[Proceso] Calcular Subtotal = Totalventa - Descuento
+   ↓
+[Proceso] Calcular Impuesto = Subtotal * Tasaimpuesto
+   ↓
+[Proceso] Calcular Totalpagar = Subtotal + Impuesto
+   ↓
+[Salida] Mostrar Nombre del producto
+[Salida] Mostrar Cantidad
+[Salida] Mostrar Precio unitario
+[Salida] Mostrar Total de venta
+[Salida] Mostrar Descuento
+[Salida] Mostrar Subtotal
+[Salida] Mostrar Impuesto
+[Salida] Mostrar Total a pagar
+   ↓
+Fin
